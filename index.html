@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <title>Namima Lab</title>
+  <style>
+    html,body{margin:0;padding:0;background:#05060a;color:#e8e8e8}
+    body{font:15px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+    .wrap{max-width:760px;margin:0 auto;padding:22px 16px 40px}
+    h1{margin:6px 0 8px;letter-spacing:.06em}
+    .sub{opacity:.7;margin:0 0 18px}
+    .grid{display:grid;gap:10px}
+    a.card{
+      display:block;text-decoration:none;color:inherit;
+      border:1px solid rgba(255,255,255,.14);
+      border-radius:14px;padding:14px 14px;
+      background:rgba(255,255,255,.04)
+    }
+    a.card:hover{background:rgba(255,255,255,.06)}
+    .title{font-weight:700;margin-bottom:4px}
+    .desc{opacity:.75;font-size:13px}
+    .tag{display:inline-block;margin-top:8px;font-size:12px;opacity:.75;
+      padding:2px 8px;border:1px solid rgba(255,255,255,.14);border-radius:999px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>NAMIMA LAB</h1>
+    <p class="sub">Select a patch</p>
+
+    <div class="grid">
+      <a class="card" href="./a-min/">
+        <div class="title">A-min (Stable)</div>
+        <div class="desc">Ripple particles + ambient / iOS safe start</div>
+        <span class="tag">stable</span>
+      </a>
+
+      <a class="card" href="./a-min-v2/">
+        <div class="title">A-min v2 (Lab)</div>
+        <div class="desc">Glow / lines / deeper space</div>
+        <span class="tag">lab</span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>
